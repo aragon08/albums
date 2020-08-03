@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/tvAlbum"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+    <TextView
+        android:id="@+id/tvNombreAlbum"
+        android:text="Nombre Album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAlbum"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+    <TextView
+        android:id="@+id/tvArtista"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Artista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombreAlbum"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+    <TextView
+        android:id="@+id/tvNombreArtista"
+        android:text="Nombre Artista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvArtista"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+    <TextView
+        android:id="@+id/tvAnio"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Año"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombreArtista"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+    <TextView
+        android:id="@+id/tvValorAnio"
+        android:text="Año"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAnio"
+        android:layout_toRightOf="@id/ivFoto"/>
+
+</RelativeLayout>
